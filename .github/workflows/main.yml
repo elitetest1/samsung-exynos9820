@@ -55,7 +55,7 @@ jobs:
           set -e -o pipefail
           ./cruelbuild config                    \
                        model=${{ matrix.model }} \
-                       name="ZhafKernel-5.1"     \
+                       name="EliteSU"     \
                        toolchain=$TOOLCHAIN      \
                        os_patch_level=2022-04    \
                        +io_maple                 \
