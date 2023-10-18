@@ -55,7 +55,7 @@ jobs:
           set -e -o pipefail
           ./cruelbuild config                    \
                        model=${{ matrix.model }} \
-                       name="EliteSU"     \
+                       name="EliteKSU"     \
                        toolchain=$TOOLCHAIN      \
                        os_patch_level=2022-04    \
                        +io_maple                 \
